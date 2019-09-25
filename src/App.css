@@ -1,22 +1,116 @@
-.App {
+.App{
+  text-align: center;
+}
+.figure{
+  width: 20px;
+}
+.fig-profil{
+  margin-top: -115px
+}
+.users{
+  box-shadow: 10px 5px 5px gray;
+width: 70%;
+margin: 65px auto;
+padding-bottom: 20px;
+}
+.vol{
+  width:100%
+}
+.followinf-btn{
+  background-color: rgb(59, 129, 145);
+    padding: 20px 70px;
+    color: white;
+    font-size: 38px;
+    border-radius: 20px;
+  
+}
+.name{
+  color:gray;
+  font-size: 40px;
+  padding: 0;
+  text-decoration: none;
+}
+.namep{
+  margin: 0;
+}
+.coordonnee{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 35px;
+}
+.coord{
+  width:350px;
+  font-size: 20px;
+}
+.title{
+  color:10px 2px 8px 5px rgba(128, 128, 128, 0.548);
+  text-decoration-line: underline;
+  margin: 0;
+}
+
+.post{
+ box-shadow: 10px 5px 5px gray;
+  width: 70%;
+    margin: auto;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width:200%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.container:hover .image {
+  opacity: 0.3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container:hover .middle {
+  opacity: 1;
 }
-
-.App-link {
-  color: #09d3ac;
+.commt{
+  border-top:solid gray 2px;
+  padding: 20px 0;
+    font-size: 25px;
+}
+.title-commt{
+  color:#54A9BD
+}
+.img-post{
+  width: 70%;
+}
+.posts-info{
+  width: 70%;
+  margin: auto;
+  border-top:solid gray 2px; 
+  padding: 20px;
+  text-align: left;
+}
+.name-comt{
+  color:rgb(59, 129, 145);
+  font-size: 20px;
+  text-align: center;
+  border-bottom: #54A9BD solid 2px;
+  margin: 0 300px;
+  padding: 20px;
+}
+.commantaire{
+  text-align: center;
 }
